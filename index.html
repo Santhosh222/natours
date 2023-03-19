@@ -13,8 +13,27 @@
         <title>Natours | Exciting tours for adventurous people</title>
     </head>
     <body>
+        <!-- Header - Block - Standalone component in page -->
         <header class="header">
-            Some text...
+            <!-- Header logo box - Element - Not Standalone in page -->
+            <div class="header__logo-box">
+                <!-- Header logo - Element -->
+                <img src="img/logo-white.png" alt="Logo" class="header__logo"/>
+            </div>
+
+            <!-- Header text box - Element - Not Standalone in page -->
+            <div class="header__text-box">
+                <!-- h1 - Block - Standalone in page (h1 can be reused in other parts of page) -->
+                <h1 class="heading-primary">
+                    <!-- Heading Main and sub - Modifier - Only different variations -->
+                    <span class="heading-primary--main">Outdoors</span>
+                    <span class="heading-primary--sub">is where life happens</span>
+                </h1>
+                <!-- Button (btn) block - Standalone -->
+                <!-- White and Animated are just variations, so they are modifiers -->
+                <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+            </div>
+            
         </header>
         
     </body>
