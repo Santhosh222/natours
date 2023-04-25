@@ -16,7 +16,6 @@
     "url": "https://github.com/Santhosh222/natours/issues"
   },
   "homepage": "https://github.com/Santhosh222/natours#readme",
-  "dependencies": {},
   "devDependencies": {
     "node-sass": "^8.0.0"
   }

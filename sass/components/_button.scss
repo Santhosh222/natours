@@ -35,6 +35,15 @@
             background-color: $color-white;
         }
     }
+
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary;
+        }
+    }
     
     &::after {
         content: "";
@@ -72,11 +81,11 @@
         background-color: $color-primary;
         color: $color-white;
         transform: translateY(-2px);
-        box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+        box-shadow: 0 1rem 2rem rgba($color-black, .2);
     }
 
     &:active {
         transform: translateY(0);
-        box-shadow: 0 .5rem 1rem rgba($color-black, 0.2);
+        box-shadow: 0 .5rem 1rem rgba($color-black, .2);
     }
 }
